@@ -1,0 +1,113 @@
+
+.form1{
+    width: 700px;
+    height: 500px;
+    box-shadow: #f6f5f7;
+    margin: 20px auto;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid rgb(149, 24, 57);
+     padding: 50px;
+     border-radius: 25px;
+     background-color:white;
+     position: relative;
+     
+}
+.fa-sign-out{
+    cursor: pointer;
+}
+.form1 label,.form2 label{
+    width: 300px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+}
+.form1 label input{
+  border-color: rgb(189, 128, 74);
+  padding: 5px;
+}
+.form1 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form1 i{
+    right: 5px;
+    font-size: 36px;
+    position: absolute;
+    top: 3px;
+    cursor: pointer;
+}
+.sign-up {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.368);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 100;
+}
+.sign-in {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.368);
+    position: fixed;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 100;
+}
+.form2{
+    width: 700px;
+    height: 500px;
+    box-shadow: #f6f5f7;
+    margin: 20px auto;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid rgb(149, 24, 57);
+     padding: 50px;
+     border-radius: 25px;
+     background-color:white;
+     position: relative;
+     
+}
+
+.form2 label input{
+  border-color: rgb(189, 128, 74);
+  padding: 5px;
+}
+.form2 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form2 i{
+    right: 5px;
+    font-size: 36px;
+    position: absolute;
+    top: 3px;
+    cursor: pointer;
+}
+
+header .btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 30px;
+    gap: 10px;
+}
+header .btn-container i{
+    font-size: 30px;
+}
